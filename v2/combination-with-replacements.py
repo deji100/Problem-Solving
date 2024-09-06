@@ -4,6 +4,8 @@ from itertools import combinations_with_replacement
 if __name__ == "__main__":
     n = input()
     
+    """Combinations with replacement"""
+    
     elements = n[:len(n) - 2]
     num = int(n[len(elements)+1:])
         
@@ -13,3 +15,4 @@ if __name__ == "__main__":
 
     for i in combined_sorted_list:
         print("".join(i))
+        
